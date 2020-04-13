@@ -4,7 +4,7 @@ import Nav from './Nav';
 import Router from 'next/router';
 import NProgress from 'nprogress';
 
-//Router action and bar notification
+//Router action and bar notification -- red bar across the top
 Router.onRouteChangeStart = () => {
   NProgress.start();
 }
@@ -55,6 +55,7 @@ const StyledHeader = styled.header`
   }
 `;
 
+// Component
 const Header = () => (
   <StyledHeader>
     <div className="bar">
