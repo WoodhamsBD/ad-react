@@ -24,7 +24,7 @@ const Inner = styled.div `
   padding: 2 rem;
 `;
 
-// Global INjection CSS
+// Global Injection CSS
 injectGlobal`
   @font-face {
     font-family: radnika_next;
